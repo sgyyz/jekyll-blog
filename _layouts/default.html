@@ -1,15 +1,17 @@
 <html>
 <head>
 	<title>Jekyll Training</title>
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
 </head>
 <body>
-	<strong>Jekyll</strong>
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/news.html">News</a></li>
-		</ul>
-	</nav>
+	<header>
+		<strong>Jekyll</strong>
+		{% include nav.html%}
+	</header>
 	{{content}}
+	<footer>
+		{% include nav.html%}
+		<p>&copy; CopyRight</p>
+	</footer>
 </body>
 </html>
