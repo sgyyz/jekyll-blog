@@ -1,5 +1,14 @@
 ---
 layout: default
 ---
-<h1>Training</h1>
+<h3>Training</h3>
 <p>HOHOHO</p>
+
+<ul>
+	{% for news in site.categories.home %}
+	<li>
+		<a href="">{{news.title}}</a>
+		<p>{{news.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>

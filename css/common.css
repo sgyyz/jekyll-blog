@@ -4,7 +4,29 @@ body {
 	font-size: 12px;
 }
 
+#main {
+	width: 900px;
+	margin: 0 auto;
+}
 .active {
 	background: #000;
 	color: #fff;
+}
+
+nav li {
+	float: left;
+	padding-right: 10px;
+}
+.nav {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.nav-top {
+	font-size: 14px;
+}
+
+.nav-bottom {
+	font-size: 12px;
 }

@@ -4,14 +4,17 @@
 	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
 </head>
 <body>
-	<header>
-		<strong>Jekyll</strong>
-		{% include nav.html%}
-	</header>
-	{{content}}
-	<footer>
-		{% include nav.html%}
-		<p>&copy; CopyRight</p>
-	</footer>
+	<div id="main">
+		<header>
+			<h1>Jekyll</h1>
+			{% include nav.html navclass='nav-top' %}
+		</header>
+
+		{{content}}
+		<footer>
+			{% include nav.html navclass='nav-bottom' %}
+			<p>&copy; CopyRight</p>
+		</footer>
+	</div>
 </body>
 </html>
