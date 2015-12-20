@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 #main {
@@ -12,7 +12,10 @@ body {
 	background: #000;
 	color: #fff;
 }
-
+nav ul {
+	padding: 0px;
+	margin: 0px;
+}
 nav li {
 	float: left;
 	padding-right: 10px;
@@ -20,11 +23,11 @@ nav li {
 .nav {
 	float: left;
 	width: 100%;
-	padding: 0px;
 	margin: 0px;
+	padding-bottom: 10px;
 }
 .nav-top {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .nav-bottom {
